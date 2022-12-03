@@ -1,6 +1,6 @@
 {
-  "name": "GPT-3 Writer",
-  "description": "Write a blog post in the style of your favorite thinker anywhere!",
+  "name": "Campire Skit Generator",
+  "description": "Write the title and style of your skit, the names of the kids in it with any traits they want their characters to have, and any props you want to use.",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
@@ -12,5 +12,6 @@
   "action": {
     "default_popup": "index.html",
     "default_title": "Generate blog post"
-  }
+  },
+  "permissions": ["contextMenus", "tabs", "storage"]
 }
