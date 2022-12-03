@@ -6,16 +6,16 @@ const checkForKey = () => {
     });
   };
 
+const saveKey = async () => {}
+
+const changeKey = () => {}
+
 document.getElementById('save_key_button').addEventListener('click', saveKey);
 document
   .getElementById('change_key_button')
   .addEventListener('click', changeKey);
 
-const encode = (input) => {
-    return btoa(input);
-  };
-  
-const saveKey = () => {
+  const saveKey = () => {
     const input = document.getElementById('key_input');
   
     if (input) {
@@ -30,6 +30,10 @@ const saveKey = () => {
         document.getElementById('key_entered').style.display = 'block';
       });
     }
+  };
+
+  const encode = (input) => {
+    return btoa(input);
   };
 
   const changeKey = () => {
