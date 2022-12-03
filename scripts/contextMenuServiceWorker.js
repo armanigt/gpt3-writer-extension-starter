@@ -15,6 +15,3 @@ chrome.contextMenus.create({
 });
 
 chrome.contextMenus.onClicked.addListener(generateCompletionAction);
-
-  // Add listener
-  chrome.contextMenus.onClicked.addListener(generateCompletionAction);
