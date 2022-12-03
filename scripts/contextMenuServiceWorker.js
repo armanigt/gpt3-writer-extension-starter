@@ -80,12 +80,12 @@ const generateCompletionAction = async (info) => {
       const secondPromptCompletion = await generate(secondPrompt);
       
       // Send the output when we're all done
-      sendMessage(secondPromptCompletion.text);
+      //sendMessage(secondPromptCompletion.text);
   } catch (error) {
     console.log(error);
 
     // Add this here as well to see if we run into any errors!
-    sendMessage(error.toString());
+    //sendMessage(error.toString());
   }
 };
 // Don't touch this
