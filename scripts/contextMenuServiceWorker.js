@@ -1,9 +1,3 @@
-chrome.contextMenus.create({
-    id: 'context-run',
-    title: 'Generate skit',
-    contexts: ['selection'],
-  });
-  
 // New function here
 const generateCompletionAction = async (info) => {}
 
